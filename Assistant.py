@@ -24,7 +24,7 @@ def wishMe():
         speak ("good afternoon sir!")
     else:
         speak("good evening sir!")
-    speak("i am you assistant howard, please tell me how may i help you?")
+    speak("i am you assistant howard here, please tell me how may i help you?")
 def takeCommand():
 
     r = sr.Recognizer()
