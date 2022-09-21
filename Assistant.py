@@ -61,6 +61,9 @@ if __name__ == '__main__':
             webbrowser.open("youtube.com")
         elif 'open google' in query:
             webbrowser.open("google.com")
+        elif 'open music' in query:
+            path = "C:\\Users\\Shubham\\AppData\\Local\\Amazon Music\\Amazon Music.exe"
+            os.startfile(path)
         elif 'open gmail' in query:
             webbrowser.open("gmail.com")
         elif 'open github' in query:
