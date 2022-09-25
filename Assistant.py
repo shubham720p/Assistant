@@ -24,7 +24,7 @@ def wishMe():
         speak ("good afternoon sir!")
     else:
         speak("good evening sir!")
-    speak("i am you assistant howard here, please tell me how may i help you?")
+    speak("i am you assistant , please tell me how may i help you?")
 def takeCommand():
 
     r = sr.Recognizer()
@@ -65,6 +65,12 @@ if __name__ == '__main__':
             webbrowser.open("gmail.com")
         elif 'open github' in query:
             webbrowser.open("github.com")
+        elif 'open classroom' in query:
+            webbrowser.open("https://classroom.google.com/")
+        elif 'open drive' in query:
+            webbrowser.open("https://drive.google.com/drive/my-drive")
+        elif 'open contact' in query:
+            webbrowser.open("https://contacts.google.com/?hl=en&tab=oC")
         elif 'open code' in query:
             path = "C:\\Users\\Shubham\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(path)
