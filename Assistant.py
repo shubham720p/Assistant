@@ -74,9 +74,6 @@ if __name__ == '__main__':
         elif 'open code' in query:
             path = "C:\\Users\\Shubham\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(path)
-        elif 'open music' in query:
-            path = "C:\\Users\\Shubham\\AppData\\Local\\Amazon Music\\Amazon Music.exe"
-            os.startfile(path)
         elif'open git ' in query:
             path = "C:\\Users\\Shubham\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe"
             os.openfile(path)
