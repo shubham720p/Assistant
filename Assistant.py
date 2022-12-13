@@ -1,12 +1,13 @@
 
-from logging import exception
-import pyttsx3
 import datetime
-import speech_recognition as sr
-import wikipedia 
-import webbrowser
-import os 
+import os
 import smtplib
+import webbrowser
+from logging import exception
+
+import pyttsx3
+import speech_recognition as sr
+import wikipedia
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -67,6 +68,8 @@ if __name__ == '__main__':
             webbrowser.open("github.com")
         elif 'open classroom' in query:
             webbrowser.open("https://classroom.google.com/")
+        elif 'open mycamu' in query:
+            webbrowser.open("https://www.mycamu.co.in/")
         elif 'open drive' in query:
             webbrowser.open("https://drive.google.com/drive/my-drive")
         elif 'open contact' in query:
@@ -77,5 +80,5 @@ if __name__ == '__main__':
         elif'open git ' in query:
             path = "C:\\Users\\Shubham\\AppData\\Local\\GitHubDesktop\\GitHubDesktop.exe"
             os.openfile(path)
-      
+        
         
